@@ -1,0 +1,42 @@
+
+* {
+        /* box-sizing: border-box; */
+}
+
+#list-user-table {
+        border:1px solid black;
+}
+
+#list-user-table thead {
+        table-layout:auto;
+}
+
+#list-user-table th, td {
+        width: 10em;
+        text-align: left;
+}
+
+#new-user-form {
+        text-align:right;
+        display: inline-block;
+}
+
+#new-user-form h2 {
+        border-bottom: 1px solid darkgrey;
+        text-align: left;
+        font-size:2em;
+}
+#new-user-form label {
+        display: block;
+        width : 100%;
+}
+
+#new-user-form label input {
+        width: 16em;
+        margin-left:1em;
+}
+
+#new-user-form input[type=submit] {
+        margin-top:2.5em;
+        font-size:1.1em;
+}
